@@ -1,0 +1,8 @@
+﻿实现版本,描述,执行时间(秒),加速倍数,矩阵大小
+Python_Pure,纯Python实现,8879.6118,0.02x,4096x4096
+Python_NumPy,NumPy实现,316.4090,0.50x,4096x4096
+basic,C语言basic实现,159.4218,1.00x,4096x4096
+multithread,C语言multithread实现,14.6150,10.91x,4096x4096
+blocked,C语言blocked实现,21.5410,7.40x,4096x4096
+simd,C语言simd实现,12.9573,12.30x,4096x4096
+optimized,C语言optimized实现,1.5506,102.81x,4096x4096
